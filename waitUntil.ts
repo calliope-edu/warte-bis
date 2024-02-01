@@ -2,7 +2,7 @@
 * Wait Until Custom Blocks
 */
 //% weight=100 color=#bc8cbe block="warte bis..." icon="\uf1a7"
-//% groups=['Sensor']
+//% groups=['Audio']
 namespace WaitUntilBlocks {
     /**
        * Wait until a pin is pressed
@@ -56,7 +56,7 @@ namespace WaitUntilBlocks {
     //% level.loc.nl="Geluidsniveau waar je op wacht, bijvoorbeeld 80"
     //% level.min=0 level.max=255 level.defl=80
     //% weight=75
-    //% group="Sensor"
+    //% group="Audio"
     export function waitUntilSoundLevelBelow(level: number): void {
         while (input.soundLevel() >= level) {
             basic.pause(20);
@@ -77,7 +77,7 @@ namespace WaitUntilBlocks {
     //% level.loc.nl="Geluidsniveau waar je op wacht, bijvoorbeeld 80"
     //% level.min=0 level.max=255 level.defl=80
     //% weight=80
-    //% group="Sensor"
+    //% group="Audio"
     export function waitUntilSoundLevelAbove(level: number): void {
         while (input.soundLevel() <= level) {
             basic.pause(20);
