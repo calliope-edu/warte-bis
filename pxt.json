@@ -1,6 +1,6 @@
 {
-    "name": "Wait Until Custom Blocks",
-    "version": "0.1.12",
+    "name": "warte bis...",
+    "version": "0.1.13",
     "description": "",
     "dependencies": {
         "core": "*",
@@ -24,7 +24,7 @@
         "targetId": "microbit"
     },
     "supportedTargets": [
-        "microbit"
+        "calliopemini"
     ],
     "preferredEditor": "tsprj"
 }
