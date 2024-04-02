@@ -1,11 +1,9 @@
 {
     "name": "warte bis...",
-    "version": "0.1.13",
+    "version": "0.1.14",
     "description": "",
     "dependencies": {
-        "core": "*",
-        "radio": "*",
-        "microphone": "*"
+        "core": "*"
     },
     "files": [
         "main.blocks",
