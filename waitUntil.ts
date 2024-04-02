@@ -1,7 +1,7 @@
 /**
 * Wait Until Custom Blocks
 */
-//% weight=100 color=#bc8cbe block="warte bis..." icon="\uf1a7"
+//% weight=100 color=#eb6a0a block="warte bis..." icon="\uf251"
 //% groups=['Audio']
 namespace WaitUntilBlocks {
     /**
@@ -69,7 +69,7 @@ namespace WaitUntilBlocks {
            */
     //% blockId=Wachtblokken_wait_until_sound_level_above
     //% block="wait until sound level is above %level"
-    //% block.loc.de="warte bis Lautstärke ist oben %level"
+    //% block.loc.de="warte bis Lautstärke ist über %level"
     //% block.loc.sv-SE="vänta tills ljudnivån är över %level"
     //% block.loc.fr="attendre jusqu'à ce que le niveau sonore soit supérieur à %level"
     //% block.loc.nl="wacht tot geluidsniveau hoger is dan %level"
