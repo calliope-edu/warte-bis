@@ -122,14 +122,18 @@ namespace WaitUntilBlocks {
         }
     }
 
+    
     /**
        * Wait until gesture
        * @param gesture the gesture to wait for eg: Gesture.Shake
        */
     //% blockId=WaitUntilBlocks_wait_until_gesture
-    //% block="wait until button %gesture"
+    //% block="wait until Gesture %gesture"
     //% block.loc.de="warte bis %gesture"
-    //% weight=95
+    //% gesture.fieldEditor="gestures" gesture.fieldOptions.columns=4
+    //% weight=60
+    //% group="Gesture"
+    //% group.loc.de="Geste."
     //% jsdoc.loc.de="Wartet auf eine Geste."
     //% button.loc.de="Die Geste, auf die gewartet wird, z.B. Geschüttelt."
     export function waitUntilGesture(gesture: Gesture): void {
